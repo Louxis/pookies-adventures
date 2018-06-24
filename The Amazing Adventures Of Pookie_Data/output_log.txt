@@ -1,29 +1,28 @@
 Initialize engine version: 5.6.1f1 (2860b30f0b54)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
-    Vendor:   Intel
-    VRAM:     1136 MB
-    Driver:   10.18.15.4248
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 920M (ID=0x1299)
+    Vendor:   NVIDIA
+    VRAM:     2009 MB
+    Driver:   23.21.13.9101
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Rui\Desktop\Lyudmyla Todoriko & José Pereira\Lyudmyla Todoriko & José Pereira\PookieProject\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Rui\Desktop\Lyudmyla Todoriko & José Pereira\Lyudmyla Todoriko & José Pereira\PookieProject\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Rui\Desktop\Lyudmyla Todoriko & José Pereira\Lyudmyla Todoriko & José Pereira\PookieProject\The Amazing Adventures Of Pookie_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Rui\Desktop\Lyudmyla Todoriko & José Pereira\Lyudmyla Todoriko & José Pereira\PookieProject\The Amazing Adventures Of Pookie_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Rui\Desktop\Lyudmyla Todoriko & José Pereira\Lyudmyla Todoriko & José Pereira\PookieProject\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Rui\Desktop\Lyudmyla Todoriko & José Pereira\Lyudmyla Todoriko & José Pereira\PookieProject\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Rui\Desktop\Lyudmyla Todoriko & José Pereira\Lyudmyla Todoriko & José Pereira\PookieProject\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Rui\Desktop\Lyudmyla Todoriko & José Pereira\Lyudmyla Todoriko & José Pereira\PookieProject\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  1.766 seconds
-Platform assembly: C:\Users\Rui\Desktop\Lyudmyla Todoriko & José Pereira\Lyudmyla Todoriko & José Pereira\PookieProject\The Amazing Adventures Of Pookie_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Rui\Desktop\Lyudmyla Todoriko & José Pereira\Lyudmyla Todoriko & José Pereira\PookieProject\The Amazing Adventures Of Pookie_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\lyudm\Desktop\Pookie's Adventures\pookies-adventures\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\lyudm\Desktop\Pookie's Adventures\pookies-adventures\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\lyudm\Desktop\Pookie's Adventures\pookies-adventures\The Amazing Adventures Of Pookie_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\lyudm\Desktop\Pookie's Adventures\pookies-adventures\The Amazing Adventures Of Pookie_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\lyudm\Desktop\Pookie's Adventures\pookies-adventures\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\lyudm\Desktop\Pookie's Adventures\pookies-adventures\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\lyudm\Desktop\Pookie's Adventures\pookies-adventures\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\lyudm\Desktop\Pookie's Adventures\pookies-adventures\The Amazing Adventures Of Pookie_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.104 seconds
+Platform assembly: C:\Users\lyudm\Desktop\Pookie's Adventures\pookies-adventures\The Amazing Adventures Of Pookie_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\lyudm\Desktop\Pookie's Adventures\pookies-adventures\The Amazing Adventures Of Pookie_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
-XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.270132 ms
+UnloadTime: 1.467905 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2b70 -> priority: 1 
-  Thread -> id: 2b58 -> priority: 1 
+  Thread -> id: 44e8 -> priority: 1 
+  Thread -> id: 4b08 -> priority: 1 
