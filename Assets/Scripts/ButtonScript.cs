@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,9 +19,11 @@ public class ButtonScript : MonoBehaviour
     private LevelManager generator;
     private bool inGame;
     private bool start, end, gameOver;
+    private DateTime startTime;
 
     void Start()
     {
+        startTime = DateTime.Now;
         inGame = false;
         start = true;
         end = false;
@@ -86,6 +89,14 @@ public class ButtonScript : MonoBehaviour
         buttonText.text = "Restart :(";
         inGame = false;
         gameOver = true;
+
+        //Códico para registar a estatistica do tempo de jogo na base de dados através da API RESTFul
+        TimeSpan ts = DateTime.Now - startTime;
+        Dictionary<string, string> headers = new Dictionary<string, string>();
+        headers.Add("Content-Type", "application/json");
+        var jsonString = "{\"name\":\"" + PlayerPrefs.GetString("username") + "\",\"timeSpan\":\"" + ts.ToString() + "\"}";
+        byte[] byteData = System.Text.Encoding.ASCII.GetBytes(jsonString.ToCharArray());
+        WWW wwwPostRequest = new WWW("http://localhost:8081/person", byteData, headers);        
     }
 
     /// <summary>
